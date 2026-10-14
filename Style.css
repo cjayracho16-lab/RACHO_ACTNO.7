@@ -1,0 +1,63 @@
+body {
+    background-color: aqua;
+    background-image: repeating-linear-gradient(
+        45deg,
+        aqua,
+        aqua 20px,
+        lightblue 20px,
+        lightblue 40px
+    );
+    background-repeat: repeat;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    border: 3px solid black;
+}
+
+h1 {
+    color: rgb(139, 74, 0);
+    border: 2px solid black;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+h3, h4, h5, h6 {
+    color: purple;
+}
+
+p {
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul, ol {
+    
+    text-align: left;
+    border: 2px solid black;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+hr {
+    border: 1px solid black;
+}
